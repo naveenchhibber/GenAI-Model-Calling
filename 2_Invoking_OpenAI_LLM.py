@@ -3,7 +3,7 @@
 from langchain_openai import OpenAI
 # Load seceret keys from .env file to here 
 from dotenv import load_dotenv
-
+# initialize .env file to get secret keys
 load_dotenv()
 
 # Create a object of OpenAI and mention model you want to use 
@@ -16,3 +16,5 @@ result = llm.invoke("What is the capital of India")
 print(result)
 
 # go to terminal and run as [(venv) PS K:\GenAI-Model-Calling> python .\2-InvokingLLM.py]
+
+
