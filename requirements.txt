@@ -3,6 +3,7 @@ langchain
 langchain-core
 
 # OpenAI Integration
+# Need API keys for OpenAI
 langchain-openai
 openai
 

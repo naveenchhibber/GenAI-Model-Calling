@@ -12,10 +12,11 @@ documents = [
     "MS Dhoni is a former Indian captain famous for his calm demeanor and finishing skills.",
     "Sachin Tendulkar, also known as the 'God of Cricket', holds many batting records.",
     "Rohit Sharma is known for his elegant batting and record-breaking double centuries.",
-    "Jasprit Bumrah is an Indian fast bowler known for his unorthodox action and yorkers."
+    "Jasprit Bumrah is an Indian fast bowler known for his unorthodox action and yorkers.",
+    "Navin Chhibber is a very great person from India and currently living in USA."
 ]
 
-query = 'tell me about bumrah'
+query = 'tell me about Navin'
 
 doc_embeddings = embedding.embed_documents(documents)
 query_embedding = embedding.embed_query(query)
