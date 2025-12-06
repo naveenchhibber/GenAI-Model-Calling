@@ -1,5 +1,5 @@
 # need OpenAI Key >> Go to platform.openai.com  >> Create Account >> You need some credit >> recharge
-# To intigrate OpenAI and Langchain inport package
+# To intigrate OpenAI and Langchain import package
 # OpenAI is a base model of OpenAI for LLM 
 from langchain_openai import OpenAI
 # Load seceret keys from .env file to here 
